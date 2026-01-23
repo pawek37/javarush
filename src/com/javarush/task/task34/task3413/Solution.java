@@ -8,6 +8,8 @@ public class Solution {
     public static void main(String[] args) {
         SoftCache cache = new SoftCache();
         System.out.println("feature");
+        System.out.println("feature");
+        System.out.println("feature");
         for (long i = 0; i < 2_500_000; i++) {
             cache.put(i, new AnyObject(i, null, null));
         }
