@@ -92,8 +92,5 @@ public class AmigoSet<E> extends AbstractSet<E> implements Set<E>, Cloneable, Se
             map.put(e, PRESENT);
 
         }
-
     }
-
-
 }
