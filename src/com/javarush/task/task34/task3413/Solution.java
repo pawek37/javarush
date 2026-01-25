@@ -12,6 +12,8 @@ public class Solution {
         System.out.println("feature");
         System.out.println("feature");
         System.out.println("feature");
+        System.out.println("feature1");
+        System.out.println("feature2");
         for (long i = 0; i < 2_500_000; i++) {
             System.out.println("main branch");
             cache.put(i, new AnyObject(i, null, null));
