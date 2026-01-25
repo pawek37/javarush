@@ -18,6 +18,8 @@ public class Solution {
             System.out.println("test");
             System.out.println("main branch");
             System.out.println("test");
+            System.out.println("main branch2");
+            System.out.println("adapted");
             cache.put(i, new AnyObject(i, null, null));
         }
     }
