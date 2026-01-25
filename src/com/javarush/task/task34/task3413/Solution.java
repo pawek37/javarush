@@ -20,7 +20,6 @@ public class Solution {
             System.out.println("test");
             System.out.println("main branch2");
             System.out.println("adapted");
-            System.out.println("useless");
             cache.put(i, new AnyObject(i, null, null));
         }
     }
