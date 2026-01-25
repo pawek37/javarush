@@ -9,6 +9,7 @@ public class Solution {
         SoftCache cache = new SoftCache();
 
         for (long i = 0; i < 2_500_000; i++) {
+            System.out.println("main branch");
             cache.put(i, new AnyObject(i, null, null));
         }
     }
